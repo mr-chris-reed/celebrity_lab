@@ -1,5 +1,9 @@
 class Main {
   public static void main(String[] args) {
-    System.out.println("Hello world!");
+    Celebrity celeb1 = new Celebrity("Adam Sandler", "famous actor");
+    Celebrity celeb2 = new Celebrity();
+
+    System.out.println(celeb1.toString());
+    System.out.println(celeb2.toString());
   }
 }
