@@ -1,2 +1,2 @@
-language = "undefined"
-run = ""
+language = "java"
+run = "javac *.java && java Main"
